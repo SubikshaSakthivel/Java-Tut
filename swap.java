@@ -12,6 +12,7 @@ class swap
     System.out.println("After swapping");
     System.out.println("a=" +a);
     System.out.println("b="+b);
+    //the values are swapped
         
 
 
