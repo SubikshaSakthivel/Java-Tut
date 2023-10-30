@@ -17,3 +17,8 @@ public class leapyear {
   }
   
 }
+/* 
+Enter year: 
+2023
+Its  not leap year
+*/
