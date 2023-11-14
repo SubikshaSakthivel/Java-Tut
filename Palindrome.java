@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; // checking numbers
 
 public class Palindrome {
   public static void main(String args[])
