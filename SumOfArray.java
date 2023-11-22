@@ -18,5 +18,3 @@ public class SumOfArray {
 /*output
 Sum Of arrays:14
  */
-  
-
