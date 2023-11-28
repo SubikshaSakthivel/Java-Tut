@@ -14,9 +14,10 @@ public class CopyArray {
     {
       System.out.print(a2[i]+" ");
     }
-    
-
-
-  }
+    }
   
 }
+/*
+ Orginal Array:1 2 3 4 
+ Copied Array:1 2 3 4
+ */
