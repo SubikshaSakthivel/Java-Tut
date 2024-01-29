@@ -3,7 +3,7 @@ public class Count
 {
   static int counter(int n)
   {
-    int count=0;
+    int count=0;                                                   
     while(n>0)
     {
     n=n/10;
