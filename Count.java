@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Count 
 {
   static int counter(int n)
@@ -15,18 +14,29 @@ public class Count
   }
   public static void main(String args[])
   {
-   
+   try{
     Scanner s=new Scanner(System.in);
     System.out.print("Enter the value of n:");
     int n=s.nextInt();
-    System.out.print(counter(n));
-
+    if(n<0)
+    {
+      throw new IllegalArgumentException("Please enter a positive integer.");
+    }
+    System.out.println("Number of digits: " + counter(n));
+  }
+    catch(Exception e)
+    {
+      System.out.println("Error: " + e.getMessage());
     }
 }
+}
+  
 /*
- * Output:
+ * Output 1:(number)
  * Enter the value of n:4567
     4
+Enter the value of n:im9 (number with string)
+Error: null
 * 
  */
 
