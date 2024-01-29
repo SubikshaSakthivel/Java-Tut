@@ -23,6 +23,12 @@ public class Count
 
     }
 }
+/*
+ * Output:
+ * Enter the value of n:4567
+    4
+* 
+ */
 
   
 
