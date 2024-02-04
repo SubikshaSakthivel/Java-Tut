@@ -33,39 +33,7 @@
    The GCD of the given number 5
  */
 //<------------------------------------------------------------------------------->
-// import java.util.Scanner;
-// public class GCD 
-// {
-//   static int gcd(int a,int b)
-//   {
-//   static  int  euclid(int a,int b)
-//   {
-
-//     while(a!=0)
-//     {
-//      if(a>b)
-//      {
-//       a=a%b;
-//      }
-//      else{
-//       b=a%b;
-//      }
-//     }
-  
-//   return a;
-// }
-
-
-// public static void main(String args[])
-// {
-// Scanner in=new Scanner(System.in);
-// System.out.print("Enter a:");
-// int a=in.nextInt();
-// System.out.print("Enter b:");
-// int b=in.nextInt();
-
-// }
-// }
+//EUCLIDS THEOREM//
 import java.util.Scanner;
 
 public class GCD 
@@ -106,7 +74,7 @@ public class GCD
     }
 }
 /*
- * output
+ * Output:
  * Enter a: 5
    Enter b: 15
    GCD: 5
