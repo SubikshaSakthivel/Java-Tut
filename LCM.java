@@ -1,3 +1,4 @@
+//---BRUTE FORCE APPROACH
 // import java.util.Scanner;
 
 // public class LCM
@@ -32,6 +33,7 @@
 //    Enter value b:7
 //    21
 //  */
+//-------------EUCLID APPROACH----------------
 import java.util.Scanner;
 
 public class LCM {
