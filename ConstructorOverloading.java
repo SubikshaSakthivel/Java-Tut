@@ -1,3 +1,4 @@
+//COPY VALUE BY CONSTRUCTOR
 class Operation{
   int num;
   Operation(int n)
