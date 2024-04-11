@@ -73,3 +73,7 @@ return true;
   }
 
 }
+//output
+
+// 7      
+// true
