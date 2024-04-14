@@ -11,7 +11,6 @@ public class Armstrong  {
         temp=number%10;
         sum+=Math.pow(temp,len);
         number/=10;
-
       }
    return sum==num;
 
