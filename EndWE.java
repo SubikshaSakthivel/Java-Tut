@@ -8,17 +8,17 @@ public class EndWE
             {
                 if (ss.charAt(i)==' ')
                  {
-                    start=i+1;
+                    start=i+1;   //extract a word.. 
                 }
                if(ss.charAt(i)=='e')
                {
             
-                 if(i+1==ss.length() || ss.charAt(i+1)==' ')
+                 if(i+1==ss.length() || ss.charAt(i+1)==' ') //fetch last index ..
                 {
                     StringBuilder sb=new StringBuilder();
                     for(j=start;j<=i;j++)
                     {
-                        sb.append(ss.charAt(j));
+                        sb.append(ss.charAt(j));  //after comming out of loop it get buffered and  again comming into loop sb is empty
                            
                     }
                     System.out.println(sb);
