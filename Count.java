@@ -24,6 +24,10 @@ public class Count
     }
     System.out.println("Number of digits: " + counter(n));
   }
+  catch(NumberFormatException e)
+  {
+    System.out.println("Print valid number format:");
+  }
     catch(Exception e)
     {
       System.out.println("Error: " + e.getMessage());

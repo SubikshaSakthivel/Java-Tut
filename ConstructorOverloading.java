@@ -3,7 +3,7 @@ class Operation{
   int num;
   Operation(int n)
   {
-       num=n;
+      num=n;
   }
   Operation(Operation s )
   {
