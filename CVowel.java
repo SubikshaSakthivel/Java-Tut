@@ -23,4 +23,5 @@ class CVowel {
 
 
 // OUTPUT
-// 1
+// 3
+
